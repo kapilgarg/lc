@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/house-robber-iii/description/
+# https://leetcode.com/problems/house-robber-ii/description/
 class Solution:
     def rob(self, nums: List[int]) -> int:
         def _rob(nums):
