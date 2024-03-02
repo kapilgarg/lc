@@ -1,6 +1,3 @@
-from typing import List
-
-
 class Solution:
     def rob(self, nums: List[int]) -> int:
         def _rob(nums):
@@ -12,8 +9,3 @@ class Solution:
             return r2
 
         return max(nums[0], _rob(nums[:-1]), _rob(nums[1:]))
-
-
-s = Solution()
-r = s.rob([0])
-print(r)
