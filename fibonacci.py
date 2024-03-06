@@ -30,4 +30,4 @@ def fib3(n):
     return fib3(n - 1) + fib3(n - 2)
 
 print(timeit('fib3(100)', setup="from __main__ import fib3 "))
->>>46.726457800000006
+
