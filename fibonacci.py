@@ -27,7 +27,7 @@ print(timeit('fib2(100)', setup="from __main__ import fib2 "))
 def fib3(n):
     if n < 2:
         return n
-    return fib(n - 1) + fib(n - 2)
+    return fib3(n - 1) + fib3(n - 2)
 
 print(timeit('fib3(100)', setup="from __main__ import fib3 "))
 >>>46.726457800000006
